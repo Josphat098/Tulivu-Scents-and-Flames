@@ -3,7 +3,7 @@ This project involves creating a static website that is also an ecommerce websit
 
 ## Installation
 Below is the link to the website
-https://josphat098.github.io/TULIVU/
+https://josphat098.github.io/Tulivu-Scents-and-Flames/
 The website is hosted on github pages. If you wish to make changes to the website, fork the repository in your computer/device, open your code editor(Visual Studio Code).
 
 ## Project setup
