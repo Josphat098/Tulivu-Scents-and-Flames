@@ -27,7 +27,7 @@ header {
     position: relative;
     top: 1px;
     left: 1px;
-    width: 250px;
+    width: 190px;
     height: auto;
 }
 
@@ -39,7 +39,7 @@ header {
 }
 
 .header-content{
-    flex: 1;
+    flex: 5;
     text-align: center;
 }
 
