@@ -18,26 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (sendMessageButton) {
         sendMessageButton.addEventListener("click", function () {
-            const whatsappNumber = "+254716677616";
+            const whatsappNumber = "+254715024834";
 
             const name = document.getElementById("name").value;
-            const number = document.getElementById("number").value;
             const message = document.getElementById("message").value;
 
             const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                `Hello, my name is ${name}. My WhatsApp number is ${number}. Here is my message: ${message}`
+                `Hello, my name is ${name}. Here is my message: ${message}`
             )}`;
 
             window.open(whatsappURL, "_blank");
         });
     } else {
-        console.error("Send Message button not found in the DOM.");
+        console.error("Send Message button not found.");
     }
 });
 
 document.addEventListener("DOMContentLoaded", function () {
     const buyNowButtons = document.querySelectorAll(".buy-now");
-    const whatsappNumber = "+254716677616";
+    const whatsappNumber = "+254715024834";
 
     buyNowButtons.forEach((button) => {
         button.addEventListener("click", function () {
