@@ -2,7 +2,7 @@ body {
     font-family: 'Amaranth', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #e1e1e2, #63271f);
+    background: linear-gradient(180deg, #ffffff, #63271f);
     color: #000000;
 }
 
@@ -32,9 +32,9 @@ header {
 }
 
 .header-title{
-    font-family: 'Amaranth', cursive;
+    font-family: 'Allura', cursive;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
 }
 
