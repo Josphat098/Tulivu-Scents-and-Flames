@@ -40,16 +40,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     buyNowButtons.forEach((button) => {
         button.addEventListener("click", function () {
+            const productName = this.parentElement.querySelector("h3").textContent;
+
             const confirmRedirect = confirm(
-                "You will be redirected to WhatsApp to complete your order. Click OK to continue."
+                `You will be redirected to WhatsApp to complete your order for the "${productName}" candle. Click OK to continue.`
             );
 
             if (confirmRedirect) {
-                const whatsappURL = `https://wa.me/${whatsappNumber}`;
+                const whatsappMessage = `Hello, I would like to purchase the ${productName} candle.`;
+                const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
                 window.open(whatsappURL, "_blank");
             }
         });
     });
 });
-
 
