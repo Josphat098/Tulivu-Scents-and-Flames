@@ -34,7 +34,7 @@ header {
 .header-title{
     font-family: 'Allura', cursive;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 0;
 }
 
@@ -46,7 +46,7 @@ header {
 header p {
     font-family: 'Amaranth', sans-serif;
     font-style: italic;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 10px 0;
 }
 
